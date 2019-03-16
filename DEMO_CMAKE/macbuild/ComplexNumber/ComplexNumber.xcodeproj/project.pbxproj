@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		ACE1A52697B44184AC71A6BD /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1754049F610C4C328DD85194 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				1875C64BB73247B2BA4045A3 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		D00819F0483441B5A7D3BC38 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CD2322CF43F24F15AE435523 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				EFFA098D7DA44D4AB6166B96 /* CMake Rules */,
+			);
+			dependencies = (
+				1C9D644FCB5646B880DB0176 /* PBXTargetDependency */,
+				5ACBA86C25AA4D0695F3905C /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2A8AC4FA6352479A95898BA1 /* /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/pgm/ComplexNumber/ComplexNumber.cpp */ = {isa = PBXBuildFile; fileRef = 975DCBF9F54C49AEBC7746D3 /* /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/pgm/ComplexNumber/ComplexNumber.cpp */; };
+		36696BC106E34785ACEB5E58 /* /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/pgm/ComplexNumber/main.cpp */ = {isa = PBXBuildFile; fileRef = D1D0F0FE26A74800AF006D25 /* /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/pgm/ComplexNumber/main.cpp */; };
+		E191FD42FCDC4B1192162B18 /* /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/pgm/ComplexNumber/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7F0E3BE09D4D4D6995F5EFA5 /* /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/pgm/ComplexNumber/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		40D5322195D34B2E94E93BC3 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		6D34B78CB0A54021AAF0E085 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		7A364E4A6A8B46A9AC2B3A1D /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		8879027E45E94F458A3970F1 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		83E19488330B4ECAA5DAF701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26816CEFD8243E9A433B9C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACE1A52697B44184AC71A6BD;
+			remoteInfo = ZERO_CHECK;
+		};
+		B3B320FA694E42A9B4E43B0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26816CEFD8243E9A433B9C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACE1A52697B44184AC71A6BD;
+			remoteInfo = ZERO_CHECK;
+		};
+		FD6E2C7778EC4F9BAED9772A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26816CEFD8243E9A433B9C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C77D6439AEF460FBD206BCA;
+			remoteInfo = ComplexNumber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B2A0C806F3E44FB9C983274 /* /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/pgm/ComplexNumber/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7F0E3BE09D4D4D6995F5EFA5 /* /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/pgm/ComplexNumber/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		975DCBF9F54C49AEBC7746D3 /* /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/pgm/ComplexNumber/ComplexNumber.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ComplexNumber.cpp; path = ComplexNumber.cpp; sourceTree = SOURCE_ROOT; };
+		BBABDB4629374CF29CDA1653 /* ComplexNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ComplexNumber; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1D0F0FE26A74800AF006D25 /* /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/pgm/ComplexNumber/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		24573C2B49B840F6BA00D9F8 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				8E3B6D8B60444A91A5577591 /* CMake Rules */,
+				1B2A0C806F3E44FB9C983274 /* /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/pgm/ComplexNumber/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		2C749E50D39E45378F90007E = {
+			isa = PBXGroup;
+			children = (
+				E18E7FE5854D4D69B95E4E50 /* ComplexNumber */,
+				24573C2B49B840F6BA00D9F8 /* ALL_BUILD */,
+				8844CC884CEF4F23BD0B44D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		628950EAE6654E179FFD5DA3 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				975DCBF9F54C49AEBC7746D3 /* /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/pgm/ComplexNumber/ComplexNumber.cpp */,
+				D1D0F0FE26A74800AF006D25 /* /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/pgm/ComplexNumber/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8844CC884CEF4F23BD0B44D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBABDB4629374CF29CDA1653 /* ComplexNumber */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E3B6D8B60444A91A5577591 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E18E7FE5854D4D69B95E4E50 /* ComplexNumber */ = {
+			isa = PBXGroup;
+			children = (
+				628950EAE6654E179FFD5DA3 /* Source Files */,
+				7F0E3BE09D4D4D6995F5EFA5 /* /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/pgm/ComplexNumber/CMakeLists.txt */,
+			);
+			name = ComplexNumber;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C77D6439AEF460FBD206BCA /* ComplexNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE15B210B454FB3A752D7EC /* Build configuration list for PBXNativeTarget "ComplexNumber" */;
+			buildPhases = (
+				3355E7A51397430AAC2807DF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE9387A83DB341A8A22F4500 /* PBXTargetDependency */,
+			);
+			name = ComplexNumber;
+			productName = ComplexNumber;
+			productReference = BBABDB4629374CF29CDA1653 /* ComplexNumber */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E26816CEFD8243E9A433B9C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = F3F1B6E435934A1F8F46DB5F /* Build configuration list for PBXProject "ComplexNumber" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				6D34B78CB0A54021AAF0E085 /* Debug */,
+				40D5322195D34B2E94E93BC3 /* Release */,
+				7A364E4A6A8B46A9AC2B3A1D /* MinSizeRel */,
+				8879027E45E94F458A3970F1 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 2C749E50D39E45378F90007E;
+			projectDirPath = /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/pgm/ComplexNumber;
+			projectRoot = "";
+			targets = (
+				D00819F0483441B5A7D3BC38 /* ALL_BUILD */,
+				5C77D6439AEF460FBD206BCA /* ComplexNumber */,
+				ACE1A52697B44184AC71A6BD /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1875C64BB73247B2BA4045A3 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/ComplexNumber -f /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/ComplexNumber/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		6468C70B14B94E7D8F030413 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B786C09170C44D1E8470B475 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EFFA098D7DA44D4AB6166B96 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/ComplexNumber -f /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/ComplexNumber/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3355E7A51397430AAC2807DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8AC4FA6352479A95898BA1 /* /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/pgm/ComplexNumber/ComplexNumber.cpp */,
+				36696BC106E34785ACEB5E58 /* /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/pgm/ComplexNumber/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C9D644FCB5646B880DB0176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C77D6439AEF460FBD206BCA /* ComplexNumber */;
+			targetProxy = FD6E2C7778EC4F9BAED9772A /* PBXContainerItemProxy */;
+		};
+		5ACBA86C25AA4D0695F3905C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACE1A52697B44184AC71A6BD /* ZERO_CHECK */;
+			targetProxy = 83E19488330B4ECAA5DAF701 /* PBXContainerItemProxy */;
+		};
+		DE9387A83DB341A8A22F4500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACE1A52697B44184AC71A6BD /* ZERO_CHECK */;
+			targetProxy = B3B320FA694E42A9B4E43B0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02D3CEFA06B943C793B63CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/pgm/ComplexNumber/include,/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ComplexNumber;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/ComplexNumber;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4B13612F06A048BBA4FCD22B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/ComplexNumber;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4D846CFFDA0748C4958B59B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/ComplexNumber;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		565DEAD7E12540CEA2B86C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/ComplexNumber/build;
+			};
+			name = Debug;
+		};
+		58F1FE16F7FA414798E2F0A9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/ComplexNumber;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6072F3B0662A45579298F0D7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/ComplexNumber;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7E2B20AA71004F16A39C3CFF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/ComplexNumber/build;
+			};
+			name = MinSizeRel;
+		};
+		A641D9A59B5B4216A787BF0B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/ComplexNumber;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BD18EE85C23E43E8A62BF66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/ComplexNumber;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C51048BAC3DC449994307BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/pgm/ComplexNumber/include,/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ComplexNumber;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/ComplexNumber;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E13C2F5F8D64446AA90665B5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/ComplexNumber/build;
+			};
+			name = RelWithDebInfo;
+		};
+		E6E9CA227A1A497A84346B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/ComplexNumber/build;
+			};
+			name = Release;
+		};
+		F180CD0758FB45DBB68A3F77 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/pgm/ComplexNumber/include,/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ComplexNumber;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/ComplexNumber;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F508042E07CB4A6F8DC927AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/ComplexNumber;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		FCA23C02077A4A04855F3664 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/pgm/ComplexNumber/include,/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ComplexNumber;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/ComplexNumber;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FFE523E91769407C8D15F84D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/ComplexNumber;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1754049F610C4C328DD85194 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F508042E07CB4A6F8DC927AB /* Debug */,
+				BD18EE85C23E43E8A62BF66D /* Release */,
+				A641D9A59B5B4216A787BF0B /* MinSizeRel */,
+				58F1FE16F7FA414798E2F0A9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4DE15B210B454FB3A752D7EC /* Build configuration list for PBXNativeTarget "ComplexNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51048BAC3DC449994307BF9 /* Debug */,
+				02D3CEFA06B943C793B63CB3 /* Release */,
+				FCA23C02077A4A04855F3664 /* MinSizeRel */,
+				F180CD0758FB45DBB68A3F77 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CD2322CF43F24F15AE435523 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE523E91769407C8D15F84D /* Debug */,
+				4D846CFFDA0748C4958B59B9 /* Release */,
+				6072F3B0662A45579298F0D7 /* MinSizeRel */,
+				4B13612F06A048BBA4FCD22B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F3F1B6E435934A1F8F46DB5F /* Build configuration list for PBXProject "ComplexNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				565DEAD7E12540CEA2B86C3B /* Debug */,
+				E6E9CA227A1A497A84346B82 /* Release */,
+				7E2B20AA71004F16A39C3CFF /* MinSizeRel */,
+				E13C2F5F8D64446AA90665B5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E26816CEFD8243E9A433B9C1 /* Project object */;
+}

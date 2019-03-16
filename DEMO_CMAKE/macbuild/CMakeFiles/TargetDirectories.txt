@@ -1,0 +1,8 @@
+/Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/CMakeFiles/ALL_BUILD.dir
+/Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/CMakeFiles/ZERO_CHECK.dir
+/Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/HelloWorld/CMakeFiles/HelloWorldTutorial.dir
+/Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/HelloWorld/CMakeFiles/ALL_BUILD.dir
+/Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/HelloWorld/CMakeFiles/ZERO_CHECK.dir
+/Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/ComplexNumber/CMakeFiles/ComplexNumber.dir
+/Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/ComplexNumber/CMakeFiles/ALL_BUILD.dir
+/Users/dexter/sandbox/CplusplusWorkspace/DEMO_CMAKE/macbuild/ComplexNumber/CMakeFiles/ZERO_CHECK.dir
