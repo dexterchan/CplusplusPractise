@@ -2,6 +2,7 @@
 #include "include/Pet.h"
 #include <memory>
 #include "include/CplusplusFeatureTest.h"
+
 int main(int, char**) {
     std::cout << "Hello, world!\n";
     std::string n ="cat";
@@ -14,4 +15,6 @@ int main(int, char**) {
     testMoveConstructor();
 
     testBaseInitialization();
+
+    testDelegateConstructor();
 }
