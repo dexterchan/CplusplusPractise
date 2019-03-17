@@ -6,7 +6,8 @@ set (CMAKE_CXX_STANDARD 11)
 include(CTest)
 enable_testing()
 
-add_executable(HelloWorld main.cpp Pet.cpp MoveConstructor.cpp)
+add_executable(HelloWorld main.cpp Pet.cpp 
+                MoveConstructor.cpp BraceInitialization.cpp)
 
 set_target_properties(HelloWorld PROPERTIES
     CXX_STANDARD 17

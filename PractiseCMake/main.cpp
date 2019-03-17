@@ -1,7 +1,7 @@
 #include <iostream>
 #include "include/Pet.h"
 #include <memory>
-#include "include/MoveConstructor.h"
+#include "include/CplusplusFeatureTest.h"
 int main(int, char**) {
     std::cout << "Hello, world!\n";
     std::string n ="cat";
@@ -12,4 +12,6 @@ int main(int, char**) {
     p.sound();
 
     testMoveConstructor();
+
+    testBaseInitialization();
 }
