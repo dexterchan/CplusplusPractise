@@ -2,7 +2,7 @@
 #include <iostream>
 #include <iomanip>
 #include <utility>
-#include "include/CplusplusFeatureTest.h"
+#include "CplusplusFeatureTest.h"
 struct A
 {
     std::string s;
