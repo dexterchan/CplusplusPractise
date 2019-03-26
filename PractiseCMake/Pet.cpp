@@ -11,3 +11,7 @@ void Pet::sound(){
 void Pet::eat(){
     std::cout<<this->name<<" eats"<<std::endl;
 }
+
+std::string& Pet::getName(){
+    return this->name;
+}

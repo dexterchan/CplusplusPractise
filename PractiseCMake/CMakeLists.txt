@@ -25,13 +25,22 @@ project(HelloWorld VERSION 0.1.0)
 enable_testing()
 include(CTest)
 
-set(BOOST_ROOT  /usr/local/Cellar/boost/1.68.0_1)
+
+#set(BOOST_ROOT  /usr/local/Cellar/boost/1.68.0_1)
 
 set(Boost_USE_STATIC_LIBS ON)
 set(Boost_USE_MULTITHREADED ON)
+find_package(Boost 1.68 )
+find_package(Boost COMPONENTS system filesystem unit_test_framework REQUIRED)
 #hunter_add_package(Boost COMPONENTS program_options filesystem system thread context fiber log)
 
-#find_package(Boost CONFIG REQUIRED program_options filesystem system thread context fiber log)
+if(Boost_FOUND)
+  include_directories(${Boost_INCLUDE_DIRS} include)
+  message("-Boost found-")
+  add_executable(TestPet testclass.cpp Pet.cpp)
+  
+  target_link_libraries(TestPet ${Boost_LIBRARIES} ${Boost_UNIT_TEST_FRAMEWORK_LIBRARY})
+endif()
 
 
 add_executable(HelloWorld main.cpp 
@@ -46,6 +55,14 @@ set_target_properties(HelloWorld PROPERTIES
     CXX_STANDARD_REQUIRED ON
     CXX_EXTENSIONS ON
 )
+
+set_target_properties(TestPet PROPERTIES
+    CXX_STANDARD 17
+    CXX_STANDARD_REQUIRED ON
+    CXX_EXTENSIONS ON
+)
+
+
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

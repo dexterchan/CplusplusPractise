@@ -7,4 +7,5 @@ class Pet{
         Pet(std::string& name);
         void sound();
         void eat();
+        std::string& getName();
 };
