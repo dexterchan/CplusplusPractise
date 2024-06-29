@@ -12,3 +12,6 @@ build:
 	mkdir -p build
 	cd build && cmake ..
 	cd build && make
+
+run:
+	./build/lesson1_helloworld 

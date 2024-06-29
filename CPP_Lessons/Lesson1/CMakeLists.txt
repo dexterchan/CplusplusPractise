@@ -5,7 +5,7 @@ project(lesson1_helloworld)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(lesson1_helloworld hello.cpp merge_sort.c)
+add_executable(lesson1_helloworld hello.cpp merge_sort.cpp binary_search.cpp)
 
 enable_testing()
 

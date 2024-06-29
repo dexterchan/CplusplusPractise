@@ -1,3 +1,4 @@
 
-int* func(int *nums, int size);
+int *merge_sort(int *nums, int size);
 
+int sayhello();
