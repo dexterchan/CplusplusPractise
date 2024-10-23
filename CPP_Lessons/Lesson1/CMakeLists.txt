@@ -18,8 +18,19 @@ target_link_libraries(
   GTest::gtest_main
 )
 
+add_executable(
+  quick_sort_test
+  quick_sort.cpp 
+  quick_sort_test.cpp
+)
+target_link_libraries(
+  quick_sort_test
+  GTest::gtest_main
+)
+
 include(GoogleTest)
 gtest_discover_tests(hello_test)
+gtest_discover_tests(quick_sort_test)
 
 
 include(FetchContent)
