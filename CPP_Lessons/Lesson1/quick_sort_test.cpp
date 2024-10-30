@@ -1,5 +1,6 @@
 #include <gtest/gtest.h>
 #include "quick_sort.h"
+#include "quick_sort.tpp"
 
 // Demonstrate some basic assertions.
 TEST(QuickSortTest, BasicAssertions)

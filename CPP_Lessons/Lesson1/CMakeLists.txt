@@ -20,7 +20,6 @@ target_link_libraries(
 
 add_executable(
   quick_sort_test
-  quick_sort.cpp 
   quick_sort_test.cpp
 )
 target_link_libraries(
